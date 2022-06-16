@@ -1,0 +1,72 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.nav-wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .menu > li{
+    float: left;
+    margin-right: 20px;
+}
+
+header .menu a{
+    transition: 0.2s color;
+    color: gray;
+}
+
+header .menu li a:hover,
+header .menu li.current-menu-parent > a,
+header .menu li.current-menu-item a{
+    color: black;
+}
+
+header .menu li.current-menu-parent > a,
+header .menu li.current-menu-item a{
+    font-weight: bold;
+}
+
+header .menu > li:last-of-type{
+    margin-right: 0;
+}
+
+#menu-top-navigation .sub-menu{
+    min-width: 180px;
+    background-color: white;
+    position: absolute;
+    padding: 20px;
+    margin-left: -20px;
+    transition: 0.3s all;
+    opacity: 0;
+}
+
+#menu-top-navigation li:hover .sub-menu{
+    opacity: 1;
+}
+
+#menu-top-navigation .sub-menu li{
+    margin-bottom: 20px;
+}
+
+#menu-top-navigation .sub-menu li:last-of-type{
+    margin-bottom: 0;
+}
+
+#menu-top-navigation .sub-menu li a{
+    transition: 0.2s margin;
+}
+
+#menu-top-navigation .sub-menu li:hover a{
+    margin-left: 5px;
+}

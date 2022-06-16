@@ -1,0 +1,14 @@
+.banner-2-col{
+    background-color: gray;
+    padding: 50px 0 20px 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+.banner-2-col > div:first-of-type{
+    text-align: right;
+}
+
+.banner-2-col > div:nth-child(2){
+    margin-left: 30px;
+}

@@ -1,0 +1,24 @@
+.page-title{
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 40px;
+    background-color: lightgray;
+}
+
+.wp-block-image a img{
+    transition: 0.2s transform;
+}
+
+.wp-block-image a img:hover{
+    transform: scale(0.9);
+}
+
+.wp-block-image figure,
+.wp-block-image img{
+    width: 100%;
+}
+
+.map > div{
+    margin: 0 auto;
+}

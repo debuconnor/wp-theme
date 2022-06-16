@@ -1,0 +1,21 @@
+.clearfix::before, .clearfix:after{
+    content: "";
+    display: table;
+}
+
+.clearfix::after{
+    clear: both;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 35px;
+}
+
+figcaption{
+    text-align: center;
+}
